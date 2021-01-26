@@ -1,0 +1,68 @@
+/*font-family
+
+font-family: 'Lato', sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Sniglet', cursive;
+
+*/
+/*common start*/
+body{
+	font-family: 'Dosis', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #333333;
+}
+/*common end*/
+/*header start*/
+header{
+	background-color: #ffd338;
+}
+.c_t{
+	color: rgb(241 92 92 / 57%) !important;
+	border-color: rgb(241 92 92) !important;
+}
+.menu ul li a{
+	font-size: 18px;
+    font-weight: 700;
+    color: #ffffff !important;
+    padding: 3px 20px !important;
+    border-radius: 20px;
+}
+.menu ul li a:hover{
+	background-color: #f05c5c;
+}
+.d_user_ul, .d_search_ul{
+	background-color: #ffd338;
+}
+.d_user_ul{
+    top: 164%;
+    left: -100px;
+}
+.d_search_ul{
+	top: 164%;
+    left: -240px;
+    min-width: 18.7rem;
+}
+.d_search_a,
+.d_user_a{
+	color: #ffffff;
+}
+.d_search_a:hover,
+.d_user_a:hover{
+	color: #f05c5c;
+}
+.c_i:focus,
+.d_search_a:focus,
+.d_user_a:focus{
+	outline: 0;
+	box-shadow: none;
+}
+.c_i{
+	color: #6c757d;
+	height: 50px;
+}
+.c_btn{
+	width: 60px;
+	height: 50px;
+}
+/*header end
